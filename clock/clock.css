@@ -1,0 +1,22 @@
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bebebc;
+
+    margin: 30px auto;
+    width: 250px;
+    height: 90px;
+    background-color: #1a1a15;
+    border: 32px solid #bebebc;
+}
+#write{
+    text-shadow: 0 0 3px;
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+#am{
+    font-size: 18px;
+    margin-top: 23px;
+    margin-left: 5px;
+}

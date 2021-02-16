@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.calc{
+width: 250px;
+height: 321px;
+margin: 30px auto;
+border: 3px solid #201f1f;
+padding: 5px;
+box-shadow: 0 0 5px #191220;
+}
+.calh{
+    margin-bottom: 5px;
+}
+input{
+    font-size: 40px;
+    width: 100%;
+    padding: 9px;
+    text-align: right;
+    border-radius: 4px;
+}
+.calb{
+    width: 100%;
+   margin-bottom: 4px;
+}
+.calb button{
+    width: 55.55px;
+    height: 55px;
+   font-size: 2rem;
+   border-radius: 3px;
+
+}
+.calb button:focus{
+    background-color: white;
+}
+.calb button:hover{
+    background-color: white;
+}

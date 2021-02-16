@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    clear: both;
+
+}
+.maincontainer{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+  
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+
+}
+.logo h1{
+    
+    color: white;
+    font-size: 2.5rem;
+    padding: 5px 0;
+}
+header .manu{
+display: flex;
+}
+
+header .manu .search{
+    position: relative;
+}
+header .manu .search input{
+    width: 120px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+header .manu .search i{
+    cursor: pointer;
+    font-size: 17px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+   position: absolute;
+    right: 2px;
+    color: blueviolet
+}
+header .manu ul{
+    display: flex;
+    margin-right: 20px;
+}
+header .manu ul li{
+    padding: 5px 12px;
+}
+header .manu ul li a{
+   color: white;
+   font-size: 15px;
+}
+header .manu ul li a:hover{
+    color:chartreuse;
+    border-bottom: 2px solid chartreuse;
+}
+
+
+.div_clear{
+    clear: both;
+}
+
+/*-----Section1-Start-------*/
+
+.section1{
+
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(7.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+.section1-img{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(4.jpg);
+  
+}
+.section1 .middle{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section1 .middle h1{
+    color: white;
+    font-size: 3rem;
+    
+}
+.section1 .middle h2{
+   
+    color: white;
+    font-size: 2.5rem;
+}
+.section1 .middle p{
+    margin-top: .2em;
+    color: #42f842;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    
+}
+.section1 .middle button{
+    margin-top: 1em;
+    border: 2px solid red;
+    padding: 5px 12px;
+    font-weight: bold;
+    background:none;
+    color: white;
+    font-size: 18px;
+    border-bottom-left-radius: 22px;
+    border-top-right-radius:22px;
+    border-top-color: yellow;
+    border-bottom-color: yellow;
+    
+}
+.section1 .middle button:hover{
+    border-top-color: red;
+    border-bottom-color: red;
+    color: rgb(250, 247, 60);
+    border-right-color: yellow;
+    border-left-color: yellow;
+    
+}
+
+.div_clear{
+    clear: both;
+}
+
+/*--section2--start---*/
+
+.section2{
+    background-color: blueviolet;
+    height: 125vh;
+  
+}
+
+.section2 h1{
+   word-spacing: 8px;
+   color: white;
+   text-align: center;
+   
+   padding-top: 25px;
+   font-size: 3.2em;
+}
+.section2 hr{
+    border: 7px dashed white;
+    border-bottom: none;
+    width: 70px;
+    margin: auto;
+    margin-bottom: 45px;
+    margin-top: 8px;
+}
+.section2 h1 .me{
+   
+    color: #e27f22;
+}
+.section2-main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section2-main .section2-left{
+      width: 400px;
+
+}
+.section2-main .section2-left img{
+      width: 400px;
+      border-radius: 20px;  
+}
+.section2-main .section2-left img:hover{
+    box-shadow: 0 0 12px white;
+}
+.section2-main .section2-right{
+      width: 400px;
+}
+.section2-main .section2-right .name{
+     color:white;
+     font-size: 3rem;
+     font-weight:bold;
+     margin-bottom: 9px;
+     
+}
+.section2-main .section2-right .ramjan{
+    color:#e27f22;
+}
+.section2-main .section2-right h2{
+    font-size: 1.8em;
+   margin-bottom: 12px;
+     text-align: left;
+     color: white;
+     margin-left: 49px;
+}
+.section2-main .section2-right p{
+     width: 300px;
+     margin: auto;
+     color: rgb(207, 205, 205);
+     word-break: break-all;
+     line-height: 1.7;
+     
+}
+.section2-main .section2-right .lorem{
+    margin-top: 1em;
+}
+.section2-main .section2-right .fontawesome{
+    width: 300px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.section2-main .section2-right .fontawesome i{
+    margin-top: 14px;
+    color: white;
+    font-size: 25px;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   display: grid;
+   place-content: center;
+}
+.section2-main .section2-right .fontawesome i:nth-child(1):hover{
+    border-left-color: #fcff47;
+    border-right-color:#fcff47;
+    border-bottom-color: tomato;
+    border-top-color: tomato;
+   }
+.section2-main .section2-right .fontawesome i:nth-child(2):hover{
+    border-left-color: tomato;
+    border-right-color: tomato;
+    border-bottom-color: #5dfa49;
+    border-top-color: #5dfa49;
+}
+.section2-main .section2-right .fontawesome i:nth-child(3):hover{
+    border-left-color: tomato;
+    border-right-color: tomato;
+    border-bottom-color: white;
+    border-top-color: white;
+}
+.section2-main .section2-right .fontawesome i:nth-child(4):hover{
+    border-left-color: #fcff47;
+    border-right-color:#fcff47;
+    border-bottom-color: tomato;
+    border-top-color: tomato;
+   }
+ .colorPic{
+    display: flex;
+    justify-content: space-around;
+}
+.sqare{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin-top: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgb(139, 138, 138);
+}
+.sqare1{
+    width: 40px;
+    height: 40px;
+    background-color: teal;
+    margin-top: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #8b8a8a;
+}
+
+
+
+.sqare2{
+    width: 40px;
+    height: 40px;
+    background-color: teal;
+    margin-top: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #8b8a8a;
+}
+.sqare:hover{
+    background-origin: 0 0 8px white;
+}
+
+.div_clear{
+    clear: both;
+}
+
+/*-----Section3- Start----*/
+
+.section3{
+    background-color:#2c43a0;
+    
+    height: 108vh;
+}
+.section3 .service-width{
+    width: 80%;
+    margin: auto;
+}
+.colorPic1{
+    
+    width: 15%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+ .sq1{
+   
+    width: 20px;
+    height: 20px;
+    background-color: teal;
+    margin-top: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+.section3 h1{
+    padding-top:35px;
+    font-size: 2.5rem;
+    
+    color:white;
+    word-spacing: 7px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.section3 hr{
+    border: 9px dotted white;
+    border-bottom: none;
+    width: 70px;
+    margin: auto;
+    margin-bottom: 45px;
+    margin-top: 8px;
+}
+.section3 .vice{
+    color: mediumspringgreen;
+}
+.section3 .service1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.section3 .service1-area{
+    border: 1px solid white;
+    padding: 15px 22px;
+    text-align: center;
+    color: white;
+    width: 30%;
+}
+.section3 .service1-area:hover{
+    box-shadow: 0 0 12px;
+}
+.section3 .service1-area h2{
+    
+}
+.section3 .service1-area i{
+    color: springgreen;
+     font-size: 2rem;
+     margin-bottom: 5px;
+}
+.section3 .service1-area p{
+    margin-top: 5px;
+     word-break: break-all;
+     color: #e9e3e3;
+     line-height: 19px;
+}
+.section3 .service2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.section3 .service2-area{
+    margin-bottom: 40px;
+    border: 1px solid white;
+    padding: 15px 22px;
+    text-align: center;
+    color: white;
+    width: 30%;
+}
+.section3 .service2-area:hover{
+    box-shadow: 0 0 12px;
+}
+.section3 .service2-area h2{
+    
+}
+.section3 .service2-area i{
+    color: #45f345;
+     font-size: 2rem;
+     margin-bottom: 5px;
+}
+.section3 .service2-area p{
+    margin-top: 5px;
+     word-break: break-all;
+     color: #e9e3e3;
+     line-height: 19px;
+}
+
+
+
+/*-----Section3- End----*/
+
+
+/*-----Section4- Start----*/
+
+.section4{
+    background-color:#7f28a5;
+    height: 85vh;
+}
+.section4 .contact{
+   
+}
+.section4 .contact h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding-top: 20px;
+}
+.section4 .contact .me{
+    color: springgreen;
+}
+.section4 .contact hr{
+    border: 7px double white;
+    border-bottom: none;
+    width: 70px;
+    margin: auto;
+    margin-bottom: 45px;
+    margin-top: 8px;
+}
+.section4 .contact .contact-area{
+   display: flex;
+   margin-bottom: 35px;
+}
+.colorPic2{
+    width: 15%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+ .sq2{
+    width: 20px;
+    height: 20px;
+    background-color: teal;
+    margin-top: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px dotted #ffffff;
+}
+
+.section4 .contact .contact-left-site{
+    
+    width: 50%;
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns:190px 190px;
+    grid-template-rows:132px 132px;
+    margin-left: 70px;
+    justify-content: center;
+    grid-gap: 25px;
+    
+}
+.section4 .contact .contact-left-site .address{
+    padding: 5px;
+    place-content: center;
+    color: white;
+    border: 2px dotted white;
+    display: grid;
+    border-radius: 5px;
+}
+.section4 .contact .contact-left-site .address:hover{
+    box-shadow: 0 0 10px white;
+}
+.section4 .contact .contact-left-site .address i{
+    font-size: 2rem;
+    margin-bottom: 5px;
+  
+}
+.section4 .contact .contact-left-site .address h2{
+    font-size: 2rem;
+}
+.section4 .contact .contact-left-site .address p{}
+.section4 .contact .contact-right-site{
+    width: 50%;
+    margin-right: 70px;
+}
+.section4 .contact .contact-right-site input{
+    padding: 6px 8px;
+    font-size: 18px;
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    
+}
+.section4 .contact .contact-right-site textarea{
+    width: 70%;
+    display: block;
+    margin: auto;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 8px;
+    font-size: 18px;
+}
+.section4 .contact .contact-right-site button{
+    font-size: 18px;
+    padding: 4px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 75px;
+    margin-top: 8px;
+    color: #8e44ad;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px dotted white;
+}
+.section4 .contact .contact-right-site button:hover{
+    background-color:#78209e;
+    color: white;
+    box-shadow: 0 0 5px white;
+    
+}
+
+/*-----Section4- End----*/
+
+/*---footer---*/
+
+.footer{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3f5166;
+    height: 10vh;
+    color: white;
+}
+.footer p{
+    font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+

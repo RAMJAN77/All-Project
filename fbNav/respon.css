@@ -1,0 +1,42 @@
+@media screen and (max-width: 980px) {
+    .logo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .login{
+        float: none;
+        width: 408px;
+        margin: auto;
+       
+    }
+    form{
+        float: none;
+    }
+
+}
+@media screen and (max-width: 650px) {
+    .login{
+        width: 100%;
+    }
+    .name, .password, .btn{
+        float: none;
+    }
+    label{
+        margin-top: 7px;
+    }
+    .login input[type="text"],
+    .login input[type="password"] {
+       width: 100%;
+       box-sizing: border-box;
+    }
+    .btn{
+        margin-top: 6px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .container{
+      width: 85%;
+  }
+}

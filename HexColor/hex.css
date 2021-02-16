@@ -1,0 +1,20 @@
+#container{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#color1{
+    background-color: cadetblue;
+    padding: 15px 45px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+#code{
+    background-color: #ffffff;
+    padding: 10px 28px;
+}

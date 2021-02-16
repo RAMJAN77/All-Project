@@ -1,0 +1,29 @@
+.contain{
+
+    margin:30px auto;
+    width: 400px;
+}
+form{
+    display: grid;
+    font-size: 1.5rem;
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#btn{font-size: 1.3rem;
+    background-color: aquamarine;
+}
+tr th {
+    padding: 10px;
+}
+.td{
+    text-align: center;
+    padding: 8px;
+    color: red;
+}

@@ -1,0 +1,35 @@
+ul{
+
+}
+li{
+list-style: none;
+display: inline-block;
+}
+a{
+background-image: url(sp.webp);
+background-repeat: no-repeat;
+width: 58px;
+height: 58px;
+border: 2px solid gray;
+border-radius: 50%;
+display: inline-block;
+transition: .5s;
+background-position:0 -1.7px;
+}
+a:hover{
+    background-position:  0 -58px;
+    
+}
+li:nth-child(2) a{
+    background-position:  -57px -1.6px;
+}
+li:nth-child(2):hover a{
+    background-position:  -57px -58px;
+}
+
+li:nth-child(3) a{
+    background-position:  -114px -1.6px;
+}
+li:nth-child(3):hover a{
+    background-position:  -114px -58px;
+}
